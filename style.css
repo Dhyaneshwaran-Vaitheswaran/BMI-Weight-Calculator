@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Nunito;
+  background-color: #24252A;
+}
+
+li, a, button{
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+}
+
+button{
+  border: none;
+  font-size: 1em;
+  background-color: #2d7da0;
+  border-radius: 21px 21px 21px 21px;
+  padding: 10px;
+  width: 120px;
+}
+
+button:hover{
+  background-color: #4e8fbb;
+  cursor: pointer;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 8%;
+}
+
+.logo{
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.2em;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul li {
+  transition: all 1s ease 0s;
+}
+
+li a{
+  transition: all 1s ease 0s;
+}
+li a:hover{
+  color:#4aa5cc;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer{
+  padding: 70px 0;
+}
+
+footer .follow_us a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	transition: all 0.5s ease;
+  color: white;
+  background-color: black;
+}
+footer .follow_us a:hover{
+	background-color: #ffffff;
+}
